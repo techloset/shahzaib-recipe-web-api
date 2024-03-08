@@ -18,28 +18,30 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="max-w-[1286px] lg:mx-auto flex justify-between items-center p-4">
-      <div className="flex items-center justify-start px-[77px]">
+      <div className="flex items-center justify-start  pl-[40px] ">
         <div className="cursor-pointer ">
-          <img src={icone} alt="icone" />
+          <img src={icone} alt="icone" className="" />
         </div>
-        <h1 className="hidden sm:block sm:text-xl px-2 ">Delícias à Mesa</h1>
+        <h1 className="hidden sm:block sm:text-xl px-2 h-[31] w-[193] font-inter ">
+          Delícias à Mesa
+        </h1>
       </div>
 
       <div className="hidden sm:flex items-center px-2 Hug-[406px] sm:w-[400px] lg:w-[500px] md:w-[170px] justify-center">
         <ul className="flex items-center justify-center">
-          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold  ">
+          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter">
             Home
           </li>
-          <li className="lg:w-[111px] h-[31px] sm:w-[60px]  font-bold">
+          <li className="lg:w-[111px] h-[31px] sm:w-[60px]  font-bold font-inter">
             Receitas
           </li>
-          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold ">
+          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter">
             Sobrenós
           </li>
         </ul>
       </div>
 
-      <div className="hidden sm:flex items-center bg-gray-300 rounded-full ]">
+      <div className="hidden sm:flex items-center bg-[#F5F2F2] rounded-full ]">
         <img src={search} className="ms-2 w-4" alt="search" />
         <input
           className="bg-transparent p-1 w-full focus:outline-none"
@@ -49,7 +51,7 @@ const Navbar: React.FC = () => {
         />
       </div>
 
-      <div className="lg:hidden md:hidden ml-2 transition-transform transform duration-600">
+      <div className="lg:hidden md:hidden ml-2 transition-transform transform duration-600 pr-[35px]">
         {sideNav ? (
           <img
             src={toggler}
