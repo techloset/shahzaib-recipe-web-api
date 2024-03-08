@@ -26,8 +26,9 @@ const Home: React.FC = () => {
               className="absolute inset-0 text-white flex flex-wrap items-center justify-center text-center font-bold md:text-3xl font-inter  "
               style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
             >
-              Get Inspired, Cook with passion and enjoy unforgettable moments at
-              the table
+              Get Inspired, Cook with passion and
+              <br />
+              enjoy unforgettable moments at the table
             </div>
           </div>
 

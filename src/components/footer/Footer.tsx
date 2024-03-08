@@ -21,26 +21,22 @@ const Footer: React.FC = () => {
           <p className=" sm:py-2 font-medium text-xl h-[31] w-[181]">
             Redes Socials:
           </p>
-          <div className="flex">
-            <div className="mx-1">
-              <div className="bg-[#ffe9a1] h-[44] w-[44] rounded-md">
-                <img src={youtube} alt="youtube" />
-              </div>
+          <div className="w-[200px] h-[44px] gap-[8px] flex">
+            <div className="bg-[#ffe9a1] h-[44px] w-[44px] rounded-[7px] flex justify-center items-center">
+              <img src={youtube} alt="youtube" className="h-[32px] w-[32px]" />
             </div>
-            <div>
-              <div className="bg-[#ffe9a1] h-[44] w-[44] rounded-md">
-                <img src={twitter} alt="twitter" />
-              </div>
+            <div className="bg-[#ffe9a1] h-[44px] w-[44px] rounded-[7px] flex justify-center items-center">
+              <img src={twitter} alt="twitter" className="h-[32px] w-[32px]" />
             </div>
-            <div className="mx-1">
-              <div className="bg-[#ffe9a1] h-[44] w-[44] rounded-md">
-                <img src={browser} alt="browser" />
-              </div>
+            <div className="bg-[#ffe9a1] h-[44px] w-[44px] rounded-[7px] flex justify-center items-center">
+              <img src={browser} alt="browser" className="h-[32px] w-[32px]" />
             </div>
-            <div>
-              <div className="bg-[#ffe9a1] h-[44] w-[44] rounded-md">
-                <img src={pinterest} alt="pinterest" />
-              </div>
+            <div className="bg-[#ffe9a1] h-[44px] w-[44px] rounded-[7px] flex justify-center items-center">
+              <img
+                src={pinterest}
+                alt="pinterest"
+                className="h-[32px] w-[32px]"
+              />
             </div>
           </div>
         </div>

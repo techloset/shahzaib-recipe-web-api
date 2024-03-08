@@ -28,14 +28,14 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden sm:flex items-center px-2 Hug-[406px] sm:w-[400px] lg:w-[500px] md:w-[170px] justify-center">
-        <ul className="flex items-center justify-center">
-          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter">
+        <ul className="flex items-center justify-center gap-[46px] text-[26px]">
+          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter text-[26px]">
             Home
           </li>
-          <li className="lg:w-[111px] h-[31px] sm:w-[60px]  font-bold font-inter">
+          <li className="lg:w-[111px] h-[31px] sm:w-[60px]  font-bold font-inter text-[26px]">
             Receitas
           </li>
-          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter">
+          <li className="lg:w-[110px] h-[31px] sm:w-[60px] font-bold font-inter text-[26px]">
             Sobrenós
           </li>
         </ul>
